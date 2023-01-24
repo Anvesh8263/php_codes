@@ -48,5 +48,12 @@ var_dump(var_new);
 11.printf()Outputs a formatted string
 12.sprintf()Writes a formatted string to a variable
 13.echo()Outputs one or more strings
+14.count_chars();
+15.
+16.
+17.
+18.
+19.
+20.
 
 ?>
