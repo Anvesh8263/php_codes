@@ -99,4 +99,67 @@
 //echo htmlentities("<a href = 'google.com'>google</a>");
 //echo "<br>";
 //echo html_entity_decode("<a href = https://www.google.com/>google</a>");
+
+//lcfirst
+print_r(lcfirst("Hello"));
+echo "<br>";
+//ucfirst
+print_r(ucfirst("hello"));
+echo "<br>";
+//strtoupper
+print_r(strtoupper("hello class"));
+echo "<br>";
+//strtolower
+print_r(strtolower("HELLO CLASS"));
+echo "<br>";
+//ltrim
+print_r(ltrim("  HELLO"));
+echo "<br>";
+//rtrim
+print_r(rtrim("hello   "));
+echo "<br>";
+//md5
+print_r(md5("Hello Welcome"));
+echo "<br>";
+//metaphone
+print_r(metaphone("Hello Class"));
+echo "<br>";
+//number_format
+print_r(number_format(2.65344));
+echo "<br>";
+//sha1
+print_r(sha1("Hello"));
+echo "<br>";
+//str_replace
+echo(str_replace("w","d","world"));
+echo "<br>";
+//str_repeat
+echo(str_repeat("Hello",5));
+echo "<br>";
+//str_pad
+echo(str_pad("Hello",10,"o"));
+echo "<br>";
+//str_shuffle
+echo(str_shuffle("Anvesh"));
+//str_split
+//echo(str_split("Anvesh",1));
+//str_word_count
+echo(str_word_count("Hello Class"));
+echo "<br>";
+echo(strcmp("hee","he"));
+echo "<br>";
+//strcasecmp
+echo((strcasecmp))
+echo "<br>";
+//strlen
+echo(strlen("heloo"));
+echo "<br>";
+//strpos
+echo(strcmp("hee","he"));
+echo "<br>";
+//stripos
+echo(strcmp("hee","he"));
+echo "<br>";
+
+
 ?>
