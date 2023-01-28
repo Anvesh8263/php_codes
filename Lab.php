@@ -114,6 +114,7 @@ print_r(strtolower("HELLO CLASS"));
 echo "<br>";
 //ltrim
 print_r(ltrim("  HELLO"));
+
 echo "<br>";
 //rtrim
 print_r(rtrim("hello   "));
@@ -160,6 +161,4 @@ echo "<br>";
 //stripos
 echo(strcmp("hee","he"));
 echo "<br>";
-
-
 ?>
