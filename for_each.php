@@ -13,9 +13,20 @@ for ($i=0; $i < count($arr) ; $i++) {
 $arr = [10,20,30,40,50];
 foreach ($arr as $value){
     echo "$value <br>";
+
 }
-$arr1 = ["Shailendra","Ritesh","Devesh","Anvesh"];
+echo "<br>";
+$arr1 = ["Shailendra"=>97,"Ritesh"=>70,"Devesh"=>80,"Anvesh"=>90];
 foreach ($arr1 as $key ){
-    echo "$key <br>";    
+    echo "$key <br>";  
+
 }
+echo "<br>";
+$arr2 = ["Shailendra","Ritesh","Devesh","Anvesh"];
+foreach ($arr2 as $key ){
+    echo "$key <br>";  
+
+}  
+  echo "<br>";
+
 ?>
