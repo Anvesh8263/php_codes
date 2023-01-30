@@ -150,15 +150,22 @@ echo "<br>";
 echo(strcmp("hee","he"));
 echo "<br>";
 //strcasecmp
-echo((strcasecmp))
-echo "<br>";
+//echo((strcasecmp));
+//echo "<br>";
 //strlen
-echo(strlen("heloo"));
-echo "<br>";
+//echo(strlen("heloo"));
+//echo "<br>";
 //strpos
-echo(strcmp("hee","he"));
-echo "<br>";
+//echo(strpos("hee","he"));
+//echo "<br>";
 //stripos
-echo(strcmp("hee","he"));
+//echo(stripos("hee","he"));
+//echo "<br>";
+//strstr
+echo(strtr('Hay','a','e'));
+echo"<br>";
+echo(strtr('Hilla warld','ia','eo'));
 echo "<br>";
+echo(substr("Hello World",10));
+
 ?>
