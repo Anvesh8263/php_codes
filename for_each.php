@@ -27,6 +27,6 @@ foreach ($arr2 as $key ){
     echo "$key <br>";  
 
 }  
-  echo "<br>";
+
 
 ?>
