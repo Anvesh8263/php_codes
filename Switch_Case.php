@@ -1,6 +1,6 @@
 <?php
 $age=50;
-
+//If-else enforces linear search. Switch statement enforces binary search.
 switch ($age) {
     case 50:
      echo " you are 50 years old";
