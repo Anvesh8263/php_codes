@@ -75,5 +75,89 @@ echo "<br>";
 //max
 $raj12=[10,20,30,80,50,100,990];
 print_r(max($raj12));
+echo "<br>";
+//Array_merge();
+$raj10=[10,20,30,80,50,100,990];
+$raj11=[10,20,30,80,50,100,990];
+print_r(array_merge($raj10,$raj11));
+echo "<br>";
+ 
+$raj11=[10,20,30,80,50,100,990];
+print_r(array_reverse($raj11));
+echo "<br>";
+
+$raj10=[10,70,30,80];
+$raj11=[10,50,20,80];
+print_r(array_replace($raj10,$raj11));
+echo "<br>";
+
+$arry=array_fill(100,100,1);
+print_r($arry);
+echo "<br>";
+
+$arry=['a','b','c','d'];
+$arry1=array_fill_keys($arry,10);
+print_r($arry1);
+echo "<br>";
+
+
+
+
+
+
+
+
+
+$arr1=[10,20,30,40,50];
+array_multisort($arr1);
+print_r($arr1);
+echo "<br>";
+
+$arr1=[10,20,50];
+print_r(array_pad($arr1,10,5));
+echo "<br>";
+
+$arr1=[10,20];
+array_push($arr1,45);
+print_r($arr1);
+echo "<br>";
+
+$arr1=[10,20];
+array_pop($arr1);
+print_r($arr1);
+echo "<br>";
+
+$arr1=[10,20,50];
+print_r(array_product($arr1));
+echo "<br>";
+
+$arr1=[10,20,50];
+print_r(array_search(20,$arr1));
+echo "<br>";
+
+$arr1=[10,20,50];
+array_shift($arr1);
+print_r($arr1);
+echo "<br>";
+$arr1=[1,2,3,4,5,8,10,12,14,15,18];
+$min = min($arr1);
+$max = max($arr1);
+$arr_new=range($min,$max);
+print_r($arr_new);
+echo "<br>";
+
+$arr1=[10,20,30,4,5,6,2];
+//$arr_data=array_slice($arr,3);
+$arr_data=array_slice($arr1,2,5);
+print_r($arr_data);
+echo "<br>";
+
+$data = [10,20,30,40,70,59,34];
+$data_rep = [20,40];
+$data_new = array_splice($data,3,2,$data_rep);
+print_r($data);
+echo "<br>";
+
+
 
 ?>
