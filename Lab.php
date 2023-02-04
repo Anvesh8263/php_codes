@@ -57,7 +57,7 @@
 //var_dump($var_new);
 //chop function only remove right side spaces of rhe string.
 
-//(5). chunk_spli
+//(5). chunk_split
 //echo chunk_split("helloo",2);
 //echo "<br>";
 //echo chunk_split("helloo",2,':');
