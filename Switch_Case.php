@@ -15,4 +15,5 @@ switch ($age) {
         echo "Your age is weird";
         break;
 }
+//it works only on the equality
 ?>
