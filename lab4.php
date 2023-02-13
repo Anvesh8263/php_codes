@@ -1,9 +1,9 @@
 <?php
-Anvesh();
-function Anvesh(){
-echo "Hello Class";
+function add(){
+$val_one=28;
+$val_two=64;
+$result=$val_one+$val_two;
+echo $result;
 }
-Anvesh();
-echo Anvesh();
-Anvesh();Anvesh();Anvesh();
+add();
 ?>
